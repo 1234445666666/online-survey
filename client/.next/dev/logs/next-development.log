@@ -1,12 +1,6 @@
-[04:01:53.808] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:53.815] Server  ERROR    ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:53.820] Server  ERROR    ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:53.842] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:53.845] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:53.881] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:53.888] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:54.068] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:54.073] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:01:54.124] Server  ERROR    ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/home/pasha/coding/live-poll/frontend'
-[04:04:14.212] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
-[04:04:14.214] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/pasha/coding/live-poll/frontend/src/app'
+[00:00:02.362] Server  LOG      ✓ Ready in 1991ms
+[00:00:09.195] Server  LOG      ○ Compiling /_not-found ...
+[00:00:29.923] Browser LOG     Соединение установлено
+[00:00:29.923] Browser LOG     Соединение закрыто
+[00:01:02.447] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:04.576] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
