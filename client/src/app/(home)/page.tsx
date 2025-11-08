@@ -2,17 +2,24 @@
 import { execFile } from "child_process";
 import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
+import Header from "./components/header";
+import Hero from "./components/hero";
+import Features from "./components/features";
+import Work from "./components/work";
+import Footer from "./components/footer";
+import Users from "./components/users";
+import Cta from "./components/cta";
 
 export default function page() {
   return (
     <div>
-      <h1>Онлайн опрос</h1>
-
-      <div>
-        <h2>
-          <Link href={"/survey"}>переход на тест</Link>
-        </h2>
-      </div>
+      <Header />
+      <Hero />
+      <Features />
+      <Work />
+      <Users />
+      <Cta />
+      <Footer />
     </div>
   );
 }

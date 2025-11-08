@@ -1,0 +1,45 @@
+.how-it-works {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.steps::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #4a6ee0;
+  z-index: 1;
+}
+
+.step {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  padding: 0 15px;
+}
+
+.step-number {
+  width: 80px;
+  height: 80px;
+  background: #4a6ee0;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+}

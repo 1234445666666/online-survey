@@ -1,6 +1,148 @@
-[00:00:02.362] Server  LOG      ✓ Ready in 1991ms
-[00:00:09.195] Server  LOG      ○ Compiling /_not-found ...
-[00:00:29.923] Browser LOG     Соединение установлено
-[00:00:29.923] Browser LOG     Соединение закрыто
-[00:01:02.447] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:01:04.576] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:02.945] Server  LOG      ✓ Ready in 2.3s
+[00:00:53.390] Server  WARN     ⚠ Cross origin request detected from redundantly-agile-redfish.cloudpub.ru to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:21.341] Browser LOG     CSS properties changed during touchmove
+[00:01:28.152] Browser LOG     Закрытие соединения...
+[00:01:28.152] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:01:28.152] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:01:30.418] Browser LOG     Закрытие соединения...
+[00:02:20.852] Browser LOG     Закрытие соединения...
+[00:02:20.852] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:02:20.852] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:02:36.854] Browser LOG     [2;38;2;124;124;124m%s[0m Закрытие соединения...
+[00:02:36.854] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:02:36.854] Browser LOG     Соединение закрыто
+[00:02:36.854] Browser LOG     Соединение установлено
+[00:04:57.411] Browser LOG     Соединение закрыто
+[00:07:17.701] Browser LOG     Закрытие соединения...
+[00:07:17.701] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:07:17.701] Browser LOG     Соединение закрыто
+[00:08:11.603] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:08:13.468] Browser LOG     Закрытие соединения...
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.306] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:08:27.691] Browser LOG     CSS properties changed during touchmove
+[00:32:06.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:21.558] Browser LOG     Закрытие соединения...
+[00:32:21.558] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:32:21.558] Browser LOG     Соединение закрыто
+[00:32:22.259] Browser LOG     Закрытие соединения...
+[00:32:22.259] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:32:22.259] Browser LOG     Соединение закрыто
+[00:32:22.970] Browser LOG     Закрытие соединения...
+[00:32:22.971] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:32:22.971] Browser LOG     Соединение закрыто
+[00:32:23.497] Browser LOG     Закрытие соединения...
+[00:32:23.497] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:32:23.497] Browser LOG     Соединение закрыто
+[00:34:40.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:03.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:20.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:59.645] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <button> button 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="(home)/pag...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+                  <page params={Promise} searchParams={Promise}>
+                    <div>
+                      <Header>
+                      <Hero>
+                        <section className="hero">
+                          <div className="container">
+                            <h1>
+                            <p>
+                            <div className="hero-buttons">
+>                             <button>
+                                <LinkComponent href="/survey">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+>                                   <button className="btn btn-light">
+                                ...
+                              ...
+                      ...
+              ...
+            ...
+
+[00:38:59.645] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. button <button>
+[00:38:59.830] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <button> button 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="(home)/pag...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+                  <page params={Promise} searchParams={Promise}>
+                    <div>
+                      <Header>
+                      <Hero>
+                        <section className="hero">
+                          <div className="container">
+                            <h1>
+                            <p>
+                            <div className="hero-buttons">
+>                             <button>
+                                <LinkComponent href="/survey">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+>                                   <button className="btn btn-light">
+                                ...
+                              ...
+                      ...
+              ...
+            ...
+
+[00:38:59.830] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. button <button>
+[00:39:25.890] Browser LOG     [2;38;2;124;124;124m%s[0m Закрытие соединения...
+[00:39:25.891] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:39:25.891] Browser LOG     Соединение закрыто
+[00:39:25.891] Browser LOG     Соединение установлено
+[00:39:27.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:28.411] Browser LOG     Закрытие соединения...
+[00:39:28.411] Browser LOG     Соединение закрыто
+[00:40:03.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

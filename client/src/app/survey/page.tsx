@@ -1,4 +1,3 @@
-// app/page.js или pages/index.js
 "use client"; // Обязательно, чтобы компонент был клиентским
 
 import Link from "next/link";
