@@ -1,148 +1,423 @@
-[00:00:02.945] Server  LOG      ✓ Ready in 2.3s
-[00:00:53.390] Server  WARN     ⚠ Cross origin request detected from redundantly-agile-redfish.cloudpub.ru to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:03.146] Server  LOG      ✓ Ready in 2.4s
+[00:00:03.148] Server  WARN     ⚠ Cross origin request detected from redundantly-agile-redfish.cloudpub.ru to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:21.341] Browser LOG     CSS properties changed during touchmove
-[00:01:28.152] Browser LOG     Закрытие соединения...
-[00:01:28.152] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:01:28.152] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:01:30.418] Browser LOG     Закрытие соединения...
-[00:02:20.852] Browser LOG     Закрытие соединения...
-[00:02:20.852] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:02:20.852] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:02:36.854] Browser LOG     [2;38;2;124;124;124m%s[0m Закрытие соединения...
-[00:02:36.854] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:02:36.854] Browser LOG     Соединение закрыто
-[00:02:36.854] Browser LOG     Соединение установлено
-[00:04:57.411] Browser LOG     Соединение закрыто
-[00:07:17.701] Browser LOG     Закрытие соединения...
-[00:07:17.701] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:07:17.701] Browser LOG     Соединение закрыто
-[00:08:11.603] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:08:13.468] Browser LOG     Закрытие соединения...
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.306] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:08:27.691] Browser LOG     CSS properties changed during touchmove
-[00:32:06.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:21.558] Browser LOG     Закрытие соединения...
-[00:32:21.558] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:32:21.558] Browser LOG     Соединение закрыто
-[00:32:22.259] Browser LOG     Закрытие соединения...
-[00:32:22.259] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:32:22.259] Browser LOG     Соединение закрыто
-[00:32:22.970] Browser LOG     Закрытие соединения...
-[00:32:22.971] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:32:22.971] Browser LOG     Соединение закрыто
-[00:32:23.497] Browser LOG     Закрытие соединения...
-[00:32:23.497] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:32:23.497] Browser LOG     Соединение закрыто
-[00:34:40.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:03.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:20.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:59.645] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
+[00:00:08.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.447] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-        <RedirectBoundary>
-          <RedirectErrorBoundary router={{...}}>
-            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-              <SegmentViewNode type="page" pagePath="(home)/pag...">
-                <SegmentTrieNode>
-                <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-                  <page params={Promise} searchParams={Promise}>
-                    <div>
-                      <Header>
-                      <Hero>
-                        <section className="hero">
-                          <div className="container">
-                            <h1>
-                            <p>
-                            <div className="hero-buttons">
->                             <button>
-                                <LinkComponent href="/survey">
-                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
->                                   <button className="btn btn-light">
-                                ...
-                              ...
-                      ...
-              ...
-            ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="__variable_188709 __variable_9a8899 antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
 
-[00:38:59.645] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:38:59.830] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
+[00:08:58.687] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:58.860] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-        <RedirectBoundary>
-          <RedirectErrorBoundary router={{...}}>
-            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-              <SegmentViewNode type="page" pagePath="(home)/pag...">
-                <SegmentTrieNode>
-                <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-                  <page params={Promise} searchParams={Promise}>
-                    <div>
-                      <Header>
-                      <Hero>
-                        <section className="hero">
-                          <div className="container">
-                            <h1>
-                            <p>
-                            <div className="hero-buttons">
->                             <button>
-                                <LinkComponent href="/survey">
-                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
->                                   <button className="btn btn-light">
-                                ...
-                              ...
-                      ...
-              ...
-            ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="__variable_188709 __variable_9a8899 antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
 
-[00:38:59.830] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:39:25.890] Browser LOG     [2;38;2;124;124;124m%s[0m Закрытие соединения...
-[00:39:25.891] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
-[00:39:25.891] Browser LOG     Соединение закрыто
-[00:39:25.891] Browser LOG     Соединение установлено
-[00:39:27.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:28.411] Browser LOG     Закрытие соединения...
-[00:39:28.411] Browser LOG     Соединение закрыто
-[00:40:03.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:35.062] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:35.907] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="__variable_188709 __variable_9a8899 antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:20:53.322] Server  ERROR    ⨯ ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:20:53.342] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:20:53.790] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:20:55.903] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:20:55.979] Server  ERROR    ⨯ ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:20:56.270] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:20:56.270] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:20:56.831] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:21:12.300] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:21:12.773] Browser ERROR   ./src/app/(home)/components/users/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:51:1]
+ 48 │       </div>
+ 49 │     </section>
+ 50 │   );
+ 51 │ }
+    · ▲
+    ╰────
+  × Expected '</', got 'jsx text (
+  │   );
+  │ }
+  │ )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/users/index.tsx:49:1]
+ 46 │                 <h3>Социальные сети</h3>
+ 47 │             </div>
+ 48 │           </div>
+ 49 │ ╭─▶     </section>
+ 50 │ │     );
+ 51 │ ╰─▶ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/users/index.tsx
+./src/app/(home)/page.tsx
+[00:25:19.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:19.768] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="__variable_188709 __variable_9a8899 antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
