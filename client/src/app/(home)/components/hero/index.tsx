@@ -4,7 +4,7 @@ import "./hero.css";
 export default function Hero() {
   const router = useRouter();
   function createPoll() {
-    router.push("/survey");
+    router.push("/survey/create");
   }
   return (
     <section className="hero">

@@ -873,3 +873,373 @@ Import trace for requested module:
 [02:33:35.219] Browser LOG     CSS properties changed during touchmove
 [02:33:35.219] Browser LOG     CSS properties changed during touchmove
 [02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:43:28.285] Browser LOG     [2;38;2;124;124;124m%s[0m Закрытие соединения...
+[02:43:28.285] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[02:43:28.285] Browser LOG     Соединение закрыто
+[02:43:28.285] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[02:43:28.285] Browser LOG     Соединение закрыто
+[02:43:31.457] Browser LOG     Закрытие соединения...
+[02:43:35.753] Browser LOG     [2;38;2;124;124;124m%s[0m Закрытие соединения...
+[02:43:35.753] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[02:43:35.753] Browser LOG     Соединение закрыто
+[02:43:35.753] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[02:43:35.753] Browser LOG     Соединение закрыто
+[02:45:18.943] Browser LOG     Закрытие соединения...
+[02:56:45.205] Server  ERROR    ⨯ ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:45.267] Browser ERROR   ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:48.899] Server  ERROR    ⨯ ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:49.270] Browser ERROR   ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:53.773] Browser ERROR   ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:54.166] Browser ERROR   ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:54.173] Server  ERROR    ⨯ ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:54.937] Server  LOG      ○ Compiling /_error ...
+[02:56:55.880] Browser ERROR   uncaughtError: Error: 'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:56:56.137] Browser ERROR   ./src/app/survey/create/page.tsx
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+
+The error was caused by using 'styled-jsx' in './src/app/survey/create/page.tsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+Import trace for requested module:
+  ./src/app/survey/create/page.tsx
+[02:57:03.139] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:57:04.127] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:57:04.951] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:57:07.072] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[02:57:18.420] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
