@@ -421,3 +421,455 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
+[00:26:38.001] Browser LOG     [2;38;2;124;124;124m%s[0m Закрытие соединения...
+[00:26:38.001] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:26:38.001] Browser LOG     Соединение закрыто
+[00:26:38.001] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:26:38.001] Browser LOG     Соединение закрыто
+[00:29:19.272] Browser ERROR   Ошибка WebSocket: {"isTrusted":true}
+[00:29:19.272] Browser LOG     Соединение закрыто
+[00:29:46.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:46.251] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="__variable_188709 __variable_9a8899 antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[01:38:26.080] Browser LOG     Закрытие соединения...
+[01:42:13.533] Browser LOG     CSS properties changed during touchmove
+[01:42:13.533] Browser LOG     CSS properties changed during touchmove
+[01:42:13.533] Browser LOG     CSS properties changed during touchmove
+[01:42:13.533] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.534] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:13.925] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.601] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:42:15.602] Browser LOG     CSS properties changed during touchmove
+[01:55:33.330] Server  ERROR    ⨯ ./src/app/(home)/components/cta/cta.css
+Module not found: Can't resolve '/home/pasha/coding/live-poll/client/src/app/(home)/components/cta/cta.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/(home)/components/cta/index.tsx
+./src/app/(home)/page.tsx
+[01:55:33.444] Browser ERROR   ./src/app/(home)/components/cta/cta.css
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(home)/components/cta/cta.css'
+
+Import trace for requested module:
+./src/app/(home)/components/cta/cta.css
+./src/app/(home)/components/cta/index.tsx
+./src/app/(home)/page.tsx
+[01:55:34.267] Browser ERROR   ./src/app/(home)/components/cta/cta.css
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(home)/components/cta/cta.css'
+
+Import trace for requested module:
+./src/app/(home)/components/cta/cta.css
+./src/app/(home)/components/cta/index.tsx
+./src/app/(home)/page.tsx
+[01:55:49.207] Browser ERROR   ./src/app/(home)/components/cta/cta.css
+Module not found: Can't resolve '/home/pasha/coding/live-poll/client/src/app/(home)/components/cta/cta.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/(home)/components/cta/index.tsx
+./src/app/(home)/page.tsx
+[01:55:49.207] Browser ERROR   ./src/app/(home)/components/cta/cta.css
+Module not found: Module not found: Error: Can't resolve '/home/pasha/coding/live-poll/client/src/app/(home)/components/cta/cta.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/(home)/components/cta/index.tsx
+./src/app/(home)/page.tsx
+[01:55:49.272] Browser ERROR   ./src/app/(home)/components/cta/cta.css
+Module not found: Can't resolve '/home/pasha/coding/live-poll/client/src/app/(home)/components/cta/cta.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/(home)/components/cta/index.tsx
+./src/app/(home)/page.tsx
+[01:55:49.272] Browser ERROR   ./src/app/(home)/components/cta/cta.css
+Module not found: Module not found: Error: Can't resolve '/home/pasha/coding/live-poll/client/src/app/(home)/components/cta/cta.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/(home)/components/cta/index.tsx
+./src/app/(home)/page.tsx
+[02:06:54.499] Server  ERROR    ⨯ ./src/app/(home)/components/work/work.css:190:18
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+[02:06:54.854] Browser ERROR   ./src/app/(home)/components/work/work.css:190:18
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+[02:06:54.854] Browser ERROR   ./src/app/(home)/components/work/work.css
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+-- inner error --
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+Generated code for /home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!/home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!/home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css
+
+Import trace for requested module:
+./src/app/(home)/components/work/work.css
+./src/app/(home)/components/work/index.tsx
+./src/app/(home)/page.tsx
+[02:06:54.855] Browser ERROR   ./src/app/(home)/components/work/work.css:190:18
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+[02:06:54.855] Browser ERROR   ./src/app/(home)/components/work/work.css
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+-- inner error --
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+Generated code for /home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!/home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!/home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css
+
+Import trace for requested module:
+./src/app/(home)/components/work/work.css
+./src/app/(home)/components/work/index.tsx
+./src/app/(home)/page.tsx
+[02:06:59.828] Browser ERROR   ./src/app/(home)/components/work/work.css:190:18
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+[02:06:59.828] Browser ERROR   ./src/app/(home)/components/work/work.css
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+-- inner error --
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+Generated code for /home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!/home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!/home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css
+
+Import trace for requested module:
+./src/app/(home)/components/work/work.css
+./src/app/(home)/components/work/index.tsx
+./src/app/(home)/page.tsx
+[02:07:00.529] Browser ERROR   ./src/app/(home)/components/work/work.css:190:18
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+[02:07:00.529] Browser ERROR   ./src/app/(home)/components/work/work.css
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+-- inner error --
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (190:18)
+
+  188 |     right: 0px;
+  189 |     width: 2px;
+> 190 |     height: 100%;`
+      |                  ^
+  191 |   }
+  192 | 
+Generated code for /home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!/home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!/home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css
+
+Import trace for requested module:
+./src/app/(home)/components/work/work.css
+./src/app/(home)/components/work/index.tsx
+./src/app/(home)/page.tsx
+[02:07:01.678] Server  LOG      ○ Compiling /_error ...
+[02:29:37.627] Server  ERROR    ⨯ ./src/app/(home)/components/work/work.css:579:5
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  577 | 
+  578 |   .step {s
+> 579 |     gap: 8px;
+      |     ^
+  580 |   }
+  581 | 
+[02:29:37.970] Browser ERROR   ./src/app/(home)/components/work/work.css:579:5
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  577 | 
+  578 |   .step {s
+> 579 |     gap: 8px;
+      |     ^
+  580 |   }
+  581 | 
+[02:29:37.970] Browser ERROR   ./src/app/(home)/components/work/work.css
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (579:5)
+
+  577 | 
+  578 |   .step {s
+> 579 |     gap: 8px;
+      |     ^
+  580 |   }
+  581 | 
+-- inner error --
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (579:5)
+
+  577 | 
+  578 |   .step {s
+> 579 |     gap: 8px;
+      |     ^
+  580 |   }
+  581 | 
+Generated code for /home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!/home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!/home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css
+
+Import trace for requested module:
+./src/app/(home)/components/work/work.css
+./src/app/(home)/components/work/index.tsx
+./src/app/(home)/page.tsx
+[02:29:38.350] Browser ERROR   ./src/app/(home)/components/work/work.css:579:5
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word
+
+  577 | 
+  578 |   .step {s
+> 579 |     gap: 8px;
+      |     ^
+  580 |   }
+  581 | 
+[02:29:38.350] Browser ERROR   ./src/app/(home)/components/work/work.css
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (579:5)
+
+  577 | 
+  578 |   .step {s
+> 579 |     gap: 8px;
+      |     ^
+  580 |   }
+  581 | 
+-- inner error --
+Syntax error: /home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css Unknown word (579:5)
+
+  577 | 
+  578 |   .step {s
+> 579 |     gap: 8px;
+      |     ^
+  580 |   }
+  581 | 
+Generated code for /home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!/home/pasha/coding/live-poll/client/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!/home/pasha/coding/live-poll/client/src/app/(home)/components/work/work.css
+
+Import trace for requested module:
+./src/app/(home)/components/work/work.css
+./src/app/(home)/components/work/index.tsx
+./src/app/(home)/page.tsx
+[02:29:39.846] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove
+[02:33:35.219] Browser LOG     CSS properties changed during touchmove

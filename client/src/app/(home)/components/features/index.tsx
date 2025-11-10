@@ -1,5 +1,5 @@
 import "./features.css";
-export default function Features(params) {
+export default function Features() {
   return (
     <section className="features" id="features">
       <div className="container">

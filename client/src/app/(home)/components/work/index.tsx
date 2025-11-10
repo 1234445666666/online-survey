@@ -1,5 +1,5 @@
 import "./work.css";
-export default function Work(params) {
+export default function Work() {
   return (
     <section className="how-it-works" id="how-it-works">
       <div className="container">

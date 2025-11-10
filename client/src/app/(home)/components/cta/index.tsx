@@ -1,5 +1,5 @@
 import "./cta.css";
-export default function Cta(params) {
+export default function Cta() {
   return (
     <section className="cta">
       <div className="container">

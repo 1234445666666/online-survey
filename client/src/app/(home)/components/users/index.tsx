@@ -1,5 +1,5 @@
 import "./users.css";
-export default function Users(params) {
+export default function Users() {
   return (
     <section className="use-cases" id="use-cases">
       <div className="container">
