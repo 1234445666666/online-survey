@@ -1,11 +1,11 @@
-.create-survey-page {
+.registration-page {
   padding: 120px 0 80px;
   background: #f8f9fa;
   min-height: 100vh;
 }
 
-.survey-form-container {
-  max-width: 600px;
+.registration-container {
+  max-width: 500px;
   margin: 0 auto;
   background: white;
   padding: 2rem;
@@ -13,16 +13,52 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.survey-title {
+.registration-title {
   font-size: 2rem;
   color: #333;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   font-weight: 600;
 }
 
-.form-group {
+.registration-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-section {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e1e5e9;
+}
+
+.form-section:last-of-type {
+  border-bottom: none;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  color: #333;
   margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .form-label {
@@ -30,7 +66,7 @@
   margin-bottom: 0.5rem;
   font-weight: 500;
   color: #333;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .form-input {
@@ -41,6 +77,7 @@
   font-size: 1rem;
   transition: all 0.3s ease;
   background: white;
+  box-sizing: border-box;
 }
 
 .form-input:focus {
@@ -53,32 +90,30 @@
   color: #999;
 }
 
-.options-container {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.option-input {
-  margin-bottom: 0;
-}
-
-.btn-add-option {
-  background: transparent;
-  border: 2px dashed #4a6ee0;
-  color: #4a6ee0;
-  padding: 0.6rem 1rem;
+.password-requirements {
+  background: #f8f9fa;
+  padding: 1rem;
   border-radius: 5px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  align-self: flex-start;
+  margin-top: 1rem;
 }
 
-.btn-add-option:hover {
-  background: #4a6ee0;
-  color: white;
+.requirements-title {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.requirements-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.requirements-list li {
+  margin-bottom: 0.3rem;
 }
 
 .checkbox-group {
@@ -89,10 +124,11 @@
 
 .checkbox-label {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   cursor: pointer;
   gap: 0.8rem;
   font-weight: 400;
+  line-height: 1.4;
 }
 
 .checkbox-input {
@@ -103,9 +139,11 @@
   width: 20px;
   height: 20px;
   border: 2px solid #e1e5e9;
-  border-radius: 50%;
+  border-radius: 3px;
   position: relative;
   transition: all 0.3s ease;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
 }
 
 .checkbox-input:checked + .checkbox-custom {
@@ -114,28 +152,35 @@
 }
 
 .checkbox-input:checked + .checkbox-custom::after {
-  content: "";
+  content: "✓";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 8px;
-  height: 8px;
-  background: white;
-  border-radius: 50%;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .checkbox-text {
   color: #333;
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+
+.link-inline {
+  color: #4a6ee0;
+  text-decoration: none;
+}
+
+.link-inline:hover {
+  text-decoration: underline;
 }
 
 .form-actions {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
-  justify-content: center;
-  margin-top: 2rem;
-  flex-wrap: wrap;
+  margin-top: 1rem;
 }
 
 .btn {
@@ -178,40 +223,53 @@
 
 /* Адаптивность */
 @media (max-width: 768px) {
-  .create-survey-page {
+  .registration-page {
     padding: 100px 0 60px;
   }
 
-  .survey-form-container {
+  .registration-container {
     margin: 0 1rem;
     padding: 1.5rem;
   }
 
-  .survey-title {
+  .registration-title {
     font-size: 1.7rem;
   }
 
-  .form-actions {
+  .form-row {
     flex-direction: column;
+    gap: 0;
   }
 
-  .btn {
-    width: 100%;
+  .form-group {
+    margin-bottom: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .survey-form-container {
+  .registration-container {
     padding: 1rem;
     margin: 0 0.5rem;
   }
 
-  .survey-title {
+  .registration-title {
     font-size: 1.5rem;
+  }
+
+  .registration-subtitle {
+    font-size: 1rem;
   }
 
   .form-input {
     padding: 0.7rem 0.8rem;
     font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    width: 100%;
   }
 }

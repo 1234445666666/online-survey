@@ -1243,3 +1243,1980 @@ It can also happen if the client has a browser extension installed which messes 
                 ...
       ...
 
+[02:58:27.484] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[02:59:09.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:59:31.194] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[02:59:31.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:59:34.046] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[03:17:12.677] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[03:17:29.294] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[03:18:33.888] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/#use-cases" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[03:46:11.111] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[03:46:39.041] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[03:54:55.308] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[04:01:53.882] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[04:02:33.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:02:38.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:03:05.995] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="create/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/survey/cr..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="survey/cre...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                      <Page params={Promise} searchParams={Promise}>
+                        <div className="jsx-c80e6b...">
+                          <div className="jsx-c80e6b...">
+                            <div className="jsx-c80e6b...">
+                              <h1
++                               className="survey-title"
+-                               className="jsx-c80e6b77ed0200 survey-title"
+                              >
++                               Создание опроса
+                              <form className="jsx-c80e6b...">
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
+                                    htmlFor="question"
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Вопрос опроса
+                                  <input
+                                    type="text"
+                                    id="question"
+                                    placeholder="Введите ваш вопрос..."
++                                   className="form-input"
+-                                   className="jsx-c80e6b77ed0200 form-input"
+                                  >
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Варианты ответов
+                                  <div
++                                   className="options-container"
+-                                   className="jsx-c80e6b77ed0200 options-container"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 1"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 2"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <input
+                                      type="text"
+                                      placeholder="Вариант ответа 3"
++                                     className="form-input option-input"
+-                                     className="jsx-c80e6b77ed0200 form-input option-input"
+                                    >
+                                    <button
+                                      type="button"
++                                     className="btn-add-option"
+-                                     className="jsx-c80e6b77ed0200 btn-add-option"
+                                    >
++                                     + Добавить вариант
+                                <div
++                                 className="form-group"
+-                                 className="jsx-c80e6b77ed0200 form-group"
+                                >
+                                  <label
++                                   className="form-label"
+-                                   className="jsx-c80e6b77ed0200 form-label"
+                                  >
++                                   Настройки доступа
+                                  <div
++                                   className="checkbox-group"
+-                                   className="jsx-c80e6b77ed0200 checkbox-group"
+                                  >
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="public"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Публичный опрос
+                                    <label
++                                     className="checkbox-label"
+-                                     className="jsx-c80e6b77ed0200 checkbox-label"
+                                    >
+                                      <input
+                                        type="radio"
+                                        name="privacy"
+                                        value="private"
++                                       className="checkbox-input"
+-                                       className="jsx-c80e6b77ed0200 checkbox-input"
+                                      >
+                                      <span
++                                       className="checkbox-custom"
+-                                       className="jsx-c80e6b77ed0200 checkbox-custom"
+                                      >
+                                      <span
++                                       className="checkbox-text"
+-                                       className="jsx-c80e6b77ed0200 checkbox-text"
+                                      >
++                                       Приватный опрос
+                                ...
+                          ...
+                  ...
+                ...
+      ...
+
+[04:09:18.867] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:35:00.185] Server  ERROR    ⨯ ReferenceError: LInk is not defined
+[04:35:00.529] Browser ERROR   uncaughtError: ReferenceError: LInk is not defined
+[04:35:00.529] Browser ERROR   uncaughtError: TypeError: Failed to execute 'measure' on 'Performance': '​page' cannot have a negative time stamp.
+[04:35:14.949] Server  ERROR    ⨯ ReferenceError: LInk is not defined
+[04:35:17.193] Browser ERROR   uncaughtError: ReferenceError: LInk is not defined
+[04:35:17.335] Browser ERROR   uncaughtError: TypeError: Failed to execute 'measure' on 'Performance': '​page' cannot have a negative time stamp.
+[04:38:14.837] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx:2:1
+Module not found: Can't resolve './LoginStyles.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./LoginStyles.module.css";
+    | ^
+  3 |
+  4 | export default function Page() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[04:38:15.284] Browser ERROR   ./src/app/(auth)/login/page.tsx:2:1
+Module not found: Can't resolve './LoginStyles.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./LoginStyles.module.css";
+    | ^
+  3 |
+  4 | export default function Page() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[04:38:18.123] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx:2:1
+Module not found: Can't resolve './LoginStyles.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./LoginStyles.module.css";
+    | ^
+  3 |
+  4 | export default function Page() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[04:38:18.268] Browser ERROR   ./src/app/(auth)/login/page.tsx:2:1
+Module not found: Can't resolve './LoginStyles.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./LoginStyles.module.css";
+    | ^
+  3 |
+  4 | export default function Page() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[04:39:26.180] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... href=... className={function link} children=...>
+                          ^^^^^^^^^^^^^^^
+[04:39:26.511] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... href=... className={function link} children=...>
+                          ^^^^^^^^^^^^^^^
+[04:39:28.273] Browser ERROR   uncaughtError: Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... href=... className={function link} children=...>
+                          ^^^^^^^^^^^^^^^
+[04:39:28.273] Browser ERROR   uncaughtError: TypeError: Failed to execute 'measure' on 'Performance': '​LinkComponent' cannot have a negative time stamp.
+[04:39:34.781] Server  ERROR    ⨯ ReferenceError: styles is not defined
+[04:39:37.675] Browser ERROR   uncaughtError: ReferenceError: styles is not defined
+[04:39:39.274] Browser ERROR   uncaughtError: TypeError: Failed to execute 'measure' on 'Performance': '​Page' cannot have a negative time stamp.
+[04:40:55.787] Browser ERROR   ./src/app/(auth)/login/page.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:52:1]
+ 49 │         </div>
+ 50 │       </div>
+ 51 │   );
+ 52 │ }
+    · ▲
+    ╰────
+  × Expected '</', got '<eof>'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:52:3]
+ 50 │       </div>
+ 51 │   );
+ 52 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:40:55.810] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:52:1]
+ 49 │         </div>
+ 50 │       </div>
+ 51 │   );
+ 52 │ }
+    · ▲
+    ╰────
+  × Expected '</', got '<eof>'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:52:3]
+ 50 │       </div>
+ 51 │   );
+ 52 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:40:56.551] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:40:57.093] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:44:32.799] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx
+Error:   × You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:3:1]
+ 1 │ import Link from "next/link";
+ 2 │ import "./style.css";
+ 3 │ import { useRouter } from "next/navigation";
+   ·          ─────────
+ 4 │ 
+ 5 │ export default function Page() {
+ 6 │   const router = useRouter();
+   ╰────
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:44:33.334] Browser ERROR   ./src/app/(auth)/login/page.tsx
+Error:   × You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:3:1]
+ 1 │ import Link from "next/link";
+ 2 │ import "./style.css";
+ 3 │ import { useRouter } from "next/navigation";
+   ·          ─────────
+ 4 │ 
+ 5 │ export default function Page() {
+ 6 │   const router = useRouter();
+   ╰────
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:44:40.600] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx
+Error:   × You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:3:1]
+ 1 │ import Link from "next/link";
+ 2 │ import "./style.css";
+ 3 │ import { useRouter } from "next/navigation";
+   ·          ─────────
+ 4 │ 
+ 5 │ export default function Page() {
+ 6 │   const router = useRouter();
+   ╰────
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:44:41.268] Browser ERROR   ./src/app/(auth)/login/page.tsx
+Error:   × You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:3:1]
+ 1 │ import Link from "next/link";
+ 2 │ import "./style.css";
+ 3 │ import { useRouter } from "next/navigation";
+   ·          ─────────
+ 4 │ 
+ 5 │ export default function Page() {
+ 6 │   const router = useRouter();
+   ╰────
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:44:45.414] Browser ERROR   ./src/app/(auth)/login/page.tsx
+Error:   × You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:3:1]
+ 1 │ import Link from "next/link";
+ 2 │ import "./style.css";
+ 3 │ import { useRouter } from "next/navigation";
+   ·          ─────────
+ 4 │ 
+ 5 │ export default function Page() {
+ 6 │   const router = useRouter();
+   ╰────
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:44:45.417] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx
+Error:   × You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:3:1]
+ 1 │ import Link from "next/link";
+ 2 │ import "./style.css";
+ 3 │ import { useRouter } from "next/navigation";
+   ·          ─────────
+ 4 │ 
+ 5 │ export default function Page() {
+ 6 │   const router = useRouter();
+   ╰────
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[04:45:02.247] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'call')
+[04:47:25.920] Browser ERROR   ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got '<eof>'
+     ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:168:1]
+ 165 │           min-height: 100vh;
+ 166 │         }
+ 167 │ 
+ 168 │        
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
+[04:47:25.960] Server  ERROR    ⨯ ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got '<eof>'
+     ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:168:1]
+ 165 │           min-height: 100vh;
+ 166 │         }
+ 167 │ 
+ 168 │        
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
+[04:51:04.098] Browser ERROR   ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got 'jsx text (
+  │         )'
+     ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:154:1]
+ 151 │                     Уже есть аккаунт? Войти
+ 152 │                   </button>
+ 153 │                 </div>
+ 154 │ ╭─▶           </form>
+ 155 │ ╰─▶         </div>
+ 156 │           </div>
+ 157 │         </div>
+ 158 │       );
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
+[04:51:04.980] Server  ERROR    ⨯ ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got 'jsx text (
+  │         )'
+     ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:154:1]
+ 151 │                     Уже есть аккаунт? Войти
+ 152 │                   </button>
+ 153 │                 </div>
+ 154 │ ╭─▶           </form>
+ 155 │ ╰─▶         </div>
+ 156 │           </div>
+ 157 │         </div>
+ 158 │       );
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
+[04:52:29.297] Server  ERROR    ⨯ ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got 'jsx text (
+  │
+  │             )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:60:1]
+ 57 │                 </div>
+ 58 │     
+ 59 │                
+ 60 │ ╭─▶             </div>
+ 61 │ │   
+ 62 │ ╰─▶             {/* Соглашения */}
+ 63 │                 <div className="form-section">
+ 64 │                   <div className="checkbox-group">
+ 65 │                     <label className="checkbox-label">
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
+[04:52:29.304] Browser ERROR   ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got 'jsx text (
+  │
+  │             )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:60:1]
+ 57 │                 </div>
+ 58 │     
+ 59 │                
+ 60 │ ╭─▶             </div>
+ 61 │ │   
+ 62 │ ╰─▶             {/* Соглашения */}
+ 63 │                 <div className="form-section">
+ 64 │                   <div className="checkbox-group">
+ 65 │                     <label className="checkbox-label">
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
+[04:52:50.830] Server  ERROR    ⨯ ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got 'jsx text (
+  │
+  │
+  │             )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:60:1]
+ 57 │                 </div>
+ 58 │     
+ 59 │     
+ 60 │ ╭─▶             </div>
+ 61 │ │   
+ 62 │ │   
+ 63 │ ╰─▶             <div className="form-section">
+ 64 │                   <div className="checkbox-group">
+ 65 │                     <label className="checkbox-label">
+ 66 │                       <input type="checkbox" className="checkbox-input" required />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
+[04:52:50.855] Browser ERROR   ./src/app/(auth)/registration/page.tsx
+Error:   × Expected '</', got 'jsx text (
+  │
+  │
+  │             )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/page.tsx:60:1]
+ 57 │                 </div>
+ 58 │     
+ 59 │     
+ 60 │ ╭─▶             </div>
+ 61 │ │   
+ 62 │ │   
+ 63 │ ╰─▶             <div className="form-section">
+ 64 │                   <div className="checkbox-group">
+ 65 │                     <label className="checkbox-label">
+ 66 │                       <input type="checkbox" className="checkbox-input" required />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/page.tsx
