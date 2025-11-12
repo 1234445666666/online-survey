@@ -1,7 +1,27 @@
 "use client";
 import "./style.css";
+import React, { useRef } from "react";
+import { useAuthStore } from "@/lib/store";
 
 export default function Page() {
+  const inputNameRef = useRef<HTMLInputElement>(null);
+  const inputPasswordRef = useRef<HTMLInputElement>(null);
+
+  const register = useAuthStore((state) => state.register);
+
+  function handleRegistration(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const name = inputNameRef.current?.value;
+    const password = inputPasswordRef.current?.value;
+    register(name!, password!);
+    console.log("Регистрация:", name, password);
+    alert("Пользователь зарегистрирован");
+    window.location.href = "/login";
+  }
+
+  function handleLogin() {
+    window.location.href = "/login";
+  }
   return (
     <div className="registration-page">
       <div className="container">
@@ -9,13 +29,14 @@ export default function Page() {
           <h1 className="registration-title">Регистрация</h1>
           <p className="registration-subtitle">Создайте свой аккаунт</p>
 
-          <form className="registration-form">
+          <form onSubmit={handleRegistration} className="registration-form">
             <div className="form-section">
               <h3 className="section-title">Данные для входа</h3>
 
               <div className="form-group">
                 <label className="form-label">Имя пользователя </label>
                 <input
+                  ref={inputNameRef}
                   type="text"
                   placeholder="Придумайте логин"
                   className="form-input"
@@ -27,6 +48,7 @@ export default function Page() {
                 <div className="form-group">
                   <label className="form-label">Пароль </label>
                   <input
+                    ref={inputPasswordRef}
                     type="password"
                     placeholder="Минимум 8 символов"
                     className="form-input"
@@ -76,10 +98,6 @@ export default function Page() {
 
                 <label className="checkbox-label">
                   <input type="checkbox" className="checkbox-input" />
-                  <span className="checkbox-custom"></span>
-                  <span className="checkbox-text">
-                    Хочу получать новости и специальные предложения
-                  </span>
                 </label>
               </div>
             </div>
@@ -88,7 +106,11 @@ export default function Page() {
               <button type="submit" className="btn btn-primary">
                 Создать аккаунт
               </button>
-              <button type="button" className="btn btn-outline">
+              <button
+                onClick={handleLogin}
+                type="button"
+                className="btn btn-outline"
+              >
                 Уже есть аккаунт? Войти
               </button>
             </div>
