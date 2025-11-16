@@ -3,9 +3,15 @@ import "./style.css";
 import React, { useRef } from "react";
 import { useAuthStore } from "@/lib/store";
 
+type Password = {
+  passOne: string | number;
+  passTwo: string | number;
+};
+
 export default function Page() {
   const inputNameRef = useRef<HTMLInputElement>(null);
   const inputPasswordRef = useRef<HTMLInputElement>(null);
+  const inputConfirmPasswordRef = useRef<HTMLInputElement>(null);
 
   const register = useAuthStore((state) => state.register);
 
@@ -13,10 +19,18 @@ export default function Page() {
     event.preventDefault();
     const name = inputNameRef.current?.value;
     const password = inputPasswordRef.current?.value;
+    const passwordConfirm = inputConfirmPasswordRef.current?.value;
+    checkingPasswords(password, passwordConfirm);
     register(name!, password!);
-    console.log("Регистрация:", name, password);
     alert("Пользователь зарегистрирован");
-    window.location.href = "/login";
+  }
+
+  function checkingPasswords(passOne, passTwo) {
+    if (passOne !== passTwo) {
+      alert("Пароли не совпадают");
+      return false;
+    }
+    return true;
   }
 
   function handleLogin() {
@@ -59,6 +73,7 @@ export default function Page() {
                 <div className="form-group">
                   <label className="form-label">Подтвердите пароль </label>
                   <input
+                    ref={inputConfirmPasswordRef}
                     type="password"
                     placeholder="Повторите пароль"
                     className="form-input"

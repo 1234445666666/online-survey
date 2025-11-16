@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import "./style.css";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useAuthStore } from "@/lib/store";
 
 export default function Page() {
