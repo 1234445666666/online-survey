@@ -1,11 +1,15 @@
 "use client";
 import { useRouter } from "next/navigation";
 import "./hero.css";
+import { useAuthStore } from "@/lib/store";
 export default function Hero() {
   const router = useRouter();
   function createPoll() {
     router.push("/survey/create");
   }
+
+  const authUser = useAuthStore((state) => state.currentUser);
+
   return (
     <section className="hero">
       <div className="container">
@@ -15,9 +19,21 @@ export default function Hero() {
           мнения коллег, друзей или клиентов в приватных или публичных опросах.
         </p>
         <div className="hero-buttons">
-          <button onClick={createPoll} className="btn btn-light">
-            Создать опрос
-          </button>
+          {authUser ? (
+            <button
+              onClick={() => router.push("/survey/create")}
+              className="btn btn-light"
+            >
+              Создать опрос
+            </button>
+          ) : (
+            <button
+              onClick={() => router.push("/login")}
+              className="btn btn-light"
+            >
+              Войти
+            </button>
+          )}
           <button className="btn btn-outline">Узнать больше</button>
         </div>
       </div>

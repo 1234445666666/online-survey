@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./style.css";
 import React, { useEffect, useRef } from "react";
 import { useAuthStore } from "@/lib/store";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Page() {
   const inputNameRef = useRef<HTMLInputElement>(null);
@@ -15,11 +16,10 @@ export default function Page() {
     const name = inputNameRef.current?.value;
     const password = inputPasswordRef.current?.value;
     const success = login(name!, password!);
-    if (!name || !password) {
-      alert("Введите имя пользователя и пароль");
-      return;
-    }
-    alert("Пользователь вошел");
+    // if (!name || !password) {
+    //   toast("Введите имя пользователя и пароль");
+    //   return;
+    // }
   }
 
   function handleOpenPassword() {
@@ -72,6 +72,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 }

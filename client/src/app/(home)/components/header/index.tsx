@@ -19,8 +19,6 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
 
-  console.log(isOpen);
-
   const router = useRouter();
 
   function login() {
