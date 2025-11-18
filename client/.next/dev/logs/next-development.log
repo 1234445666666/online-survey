@@ -468,3 +468,327 @@ Check the render method of `Page`.
 [01:57:42.752] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
 [02:02:30.299] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
 [02:02:32.034] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:17:08.197] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:20:55.875] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:25:52.601] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:25:52.609] Browser ERROR   uncaughtError: ReferenceError: width is not defined
+[02:25:53.523] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:25:56.073] Browser ERROR   uncaughtError: ReferenceError: width is not defined
+[02:26:10.149] Server  ERROR    ⨯ ./src/app/(home)/components/header/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:71:1]
+ 68 │               <div></div>
+ 69 │             )}
+ 70 │           </div>
+ 71 │         )}
+    ·          ▲
+ 72 │       </div>
+ 73 │     </header>
+ 74 │   );
+    ╰────
+  × Expression expected
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:73:1]
+ 70 │           </div>
+ 71 │         )}
+ 72 │       </div>
+ 73 │     </header>
+    ·     ─
+ 74 │   );
+ 75 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:73:1]
+ 70 │           </div>
+ 71 │         )}
+ 72 │       </div>
+ 73 │     </header>
+    ·      ────────
+ 74 │   );
+ 75 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:26:11.073] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:71:1]
+ 68 │               <div></div>
+ 69 │             )}
+ 70 │           </div>
+ 71 │         )}
+    ·          ▲
+ 72 │       </div>
+ 73 │     </header>
+ 74 │   );
+    ╰────
+  × Expression expected
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:73:1]
+ 70 │           </div>
+ 71 │         )}
+ 72 │       </div>
+ 73 │     </header>
+    ·     ─
+ 74 │   );
+ 75 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:73:1]
+ 70 │           </div>
+ 71 │         )}
+ 72 │       </div>
+ 73 │     </header>
+    ·      ────────
+ 74 │   );
+ 75 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:26:15.500] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:71:1]
+ 68 │               <div></div>
+ 69 │             )}
+ 70 │           </div>
+ 71 │         )}
+    ·          ▲
+ 72 │       </div>
+ 73 │     </header>
+ 74 │   );
+    ╰────
+  × Expression expected
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:73:1]
+ 70 │           </div>
+ 71 │         )}
+ 72 │       </div>
+ 73 │     </header>
+    ·     ─
+ 74 │   );
+ 75 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:73:1]
+ 70 │           </div>
+ 71 │         )}
+ 72 │       </div>
+ 73 │     </header>
+    ·      ────────
+ 74 │   );
+ 75 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:26:16.014] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:26:16.964] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:28:48.423] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:33:03.538] Server  ERROR    ⨯ ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got 'jsx text (
+  │       )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:40:1]
+ 37 │                 fill="currentColor"
+ 38 │                 className="w-6 h-6"
+ 39 │               >
+ 40 │ ╭─▶         </div>
+ 41 │ ╰─▶       </div>
+ 42 │         </header>
+ 43 │       );
+ 44 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:33:04.072] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got 'jsx text (
+  │       )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:40:1]
+ 37 │                 fill="currentColor"
+ 38 │                 className="w-6 h-6"
+ 39 │               >
+ 40 │ ╭─▶         </div>
+ 41 │ ╰─▶       </div>
+ 42 │         </header>
+ 43 │       );
+ 44 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:33:13.073] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got 'jsx text (
+  │       )'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:40:1]
+ 37 │                 fill="currentColor"
+ 38 │                 className="w-6 h-6"
+ 39 │               >
+ 40 │ ╭─▶         </div>
+ 41 │ ╰─▶       </div>
+ 42 │         </header>
+ 43 │       );
+ 44 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:33:25.358] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:34:17.958] Server  ERROR    ⨯ ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got '!'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:34:1]
+ 31 │           </div>
+ 32 │         </nav>
+ 33 │         <div className="burger-menu">
+ 34 │          <!-- SVG иконка бургера (три линии) -->
+    ·           ─
+ 35 │ <svg class="burger-icon" width="30" height="30" viewBox="0 0 30 30">
+ 36 │   <path class="burger-line top" d="M5,8 L25,8" />
+ 37 │   <path class="burger-line middle" d="M5,15 L25,15" />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:34:18.070] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got '!'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:34:1]
+ 31 │           </div>
+ 32 │         </nav>
+ 33 │         <div className="burger-menu">
+ 34 │          <!-- SVG иконка бургера (три линии) -->
+    ·           ─
+ 35 │ <svg class="burger-icon" width="30" height="30" viewBox="0 0 30 30">
+ 36 │   <path class="burger-line top" d="M5,8 L25,8" />
+ 37 │   <path class="burger-line middle" d="M5,15 L25,15" />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:34:19.315] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got '!'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:34:1]
+ 31 │           </div>
+ 32 │         </nav>
+ 33 │         <div className="burger-menu">
+ 34 │          <!-- SVG иконка бургера (три линии) -->
+    ·           ─
+ 35 │ <svg class="burger-icon" width="30" height="30" viewBox="0 0 30 30">
+ 36 │   <path class="burger-line top" d="M5,8 L25,8" />
+ 37 │   <path class="burger-line middle" d="M5,15 L25,15" />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:34:19.315] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got '!'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:34:1]
+ 31 │           </div>
+ 32 │         </nav>
+ 33 │         <div className="burger-menu">
+ 34 │          <!-- SVG иконка бургера (три линии) -->
+    ·           ─
+ 35 │ <svg class="burger-icon" width="30" height="30" viewBox="0 0 30 30">
+ 36 │   <path class="burger-line top" d="M5,8 L25,8" />
+ 37 │   <path class="burger-line middle" d="M5,15 L25,15" />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:34:19.520] Server  ERROR    ⨯ ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got '!'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:34:1]
+ 31 │           </div>
+ 32 │         </nav>
+ 33 │         <div className="burger-menu">
+ 34 │          <!-- SVG иконка бургера (три линии) -->
+    ·           ─
+ 35 │ <svg class="burger-icon" width="30" height="30" viewBox="0 0 30 30">
+ 36 │   <path class="burger-line top" d="M5,8 L25,8" />
+ 37 │   <path class="burger-line middle" d="M5,15 L25,15" />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:34:20.065] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got '!'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:34:1]
+ 31 │           </div>
+ 32 │         </nav>
+ 33 │         <div className="burger-menu">
+ 34 │          <!-- SVG иконка бургера (три линии) -->
+    ·           ─
+ 35 │ <svg class="burger-icon" width="30" height="30" viewBox="0 0 30 30">
+ 36 │   <path class="burger-line top" d="M5,8 L25,8" />
+ 37 │   <path class="burger-line middle" d="M5,15 L25,15" />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:35:08.911] Browser ERROR   ./src/app/(home)/components/header/index.tsx
+Error:   × Expected '</', got '!'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(home)/components/header/index.tsx:34:1]
+ 31 │           </div>
+ 32 │         </nav>
+ 33 │         <div className="burger-menu">
+ 34 │          <!-- SVG иконка бургера (три линии) -->
+    ·           ─
+ 35 │ <svg class="burger-icon" width="30" height="30" viewBox="0 0 30 30">
+ 36 │   <path class="burger-line top" d="M5,8 L25,8" />
+ 37 │   <path class="burger-line middle" d="M5,15 L25,15" />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(home)/components/header/index.tsx
+./src/app/(home)/page.tsx
+[02:35:14.855] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:42:49.610] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:43:28.493] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[02:43:31.516] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
