@@ -31,7 +31,7 @@ export default function Hero() {
               onClick={() => router.push("/login")}
               className="btn btn-light"
             >
-              Войти
+              Создать опрос
             </button>
           )}
           <button className="btn btn-outline">Узнать больше</button>

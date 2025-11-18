@@ -794,3 +794,512 @@ Import trace for requested module:
 [02:43:31.516] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
 [02:51:39.287] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
 [02:51:41.478] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:24:33.980] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:24:33.981] Browser ERROR   uncaughtError: ReferenceError: useAuthStore is not defined
+[04:24:34.772] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:24:37.269] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:24:37.271] Browser ERROR   uncaughtError: SyntaxError: Unexpected end of input
+[04:24:37.271] Browser ERROR   uncaughtError: ChunkLoadError: Loading chunk app/(home)/page failed.
+(missing: https://redundantly-agile-redfish.cloudpub.ru/_next/static/chunks/app/(home)/page.js)
+[04:24:38.025] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:25:19.271] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:25:30.360] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:25:48.849] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:26:11.285] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:26:11.285] Browser ERROR   uncaughtError: ReferenceError: useRouter is not defined
+[04:26:12.485] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:26:16.025] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:26:16.026] Browser ERROR   uncaughtError: ReferenceError: useRouter is not defined
+[04:26:16.719] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:27:11.447] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:28:21.992] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:28:34.958] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:36:45.426] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[04:47:41.384] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[05:45:30.794] Server  ERROR    ⨯ ./src/app/(auth)/registration/formRegister.tsx
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/formRegister.tsx'
+
+Import trace for requested module:
+./src/app/(auth)/registration/formRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:45:31.066] Browser ERROR   ./src/app/(auth)/registration/formRegister.tsx
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/formRegister.tsx'
+
+Import trace for requested module:
+./src/app/(auth)/registration/formRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:45:32.533] Server  ERROR    ⨯ ./src/app/(auth)/registration/formRegister.tsx
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/formRegister.tsx'
+
+Import trace for requested module:
+./src/app/(auth)/registration/formRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:45:33.067] Browser ERROR   ./src/app/(auth)/registration/formRegister.tsx
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/formRegister.tsx'
+
+Import trace for requested module:
+./src/app/(auth)/registration/formRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:45:33.067] Browser ERROR   ./src/app/(auth)/registration/formRegister.tsx
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/formRegister.tsx'
+
+Import trace for requested module:
+./src/app/(auth)/registration/formRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:45:37.294] Browser ERROR   ./src/app/(auth)/registration/formRegister.tsx
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/formRegister.tsx'
+
+Import trace for requested module:
+./src/app/(auth)/registration/formRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:51:04.772] Server  ERROR    ⨯ ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:51:05.164] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:03.456] Server  ERROR    ⨯ ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:04.071] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:04.071] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:04.071] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:04.071] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:04.071] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:09.045] Server  ERROR    ⨯ ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:09.179] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:09.180] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:09.180] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:09.180] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:09.180] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:12.101] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:14.129] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:14.413] Server  ERROR    ⨯ ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:14.806] Server  LOG      ○ Compiling /_error ...
+[05:52:15.070] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:52:17.425] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/babel/loader/index.js):
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+[05:52:18.066] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+[05:53:43.093] Browser ERROR   ./src/app/(auth)/registration/authFunction.ts
+Error: ENOENT: no such file or directory, open '/home/pasha/coding/live-poll/client/src/app/(auth)/registration/authFunction.ts'
+
+Import trace for requested module:
+./src/app/(auth)/registration/authFunction.ts
+./src/app/(auth)/registration/page.tsx
+[05:53:43.922] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[05:53:45.994] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[05:53:48.279] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[05:53:49.060] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[05:53:49.130] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[05:54:11.844] Server  ERROR    ⨯ ./src/app/(auth)/registration/components/FormRegister.tsx
+Error:   × Parenthesized expression cannot be empty
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/components/FormRegister.tsx:19:1]
+ 16 │       inputPasswordRef,
+ 17 │       inputConfirmPasswordRef,
+ 18 │     }: IFormRegisterProps) {
+ 19 │ ╭─▶   return (
+ 20 │ │       
+ 21 │ ╰─▶      );
+ 22 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/components/FormRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:54:12.081] Browser ERROR   ./src/app/(auth)/registration/components/FormRegister.tsx
+Error:   × Parenthesized expression cannot be empty
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/components/FormRegister.tsx:19:1]
+ 16 │       inputPasswordRef,
+ 17 │       inputConfirmPasswordRef,
+ 18 │     }: IFormRegisterProps) {
+ 19 │ ╭─▶   return (
+ 20 │ │       
+ 21 │ ╰─▶      );
+ 22 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/components/FormRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:54:22.652] Browser ERROR   ./src/app/(auth)/registration/components/FormRegister.tsx
+Error:   × Parenthesized expression cannot be empty
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/registration/components/FormRegister.tsx:19:1]
+ 16 │       inputPasswordRef,
+ 17 │       inputConfirmPasswordRef,
+ 18 │     }: IFormRegisterProps) {
+ 19 │ ╭─▶   return (
+ 20 │ │       
+ 21 │ ╰─▶      );
+ 22 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/registration/components/FormRegister.tsx
+./src/app/(auth)/registration/page.tsx
+[05:54:58.118] Browser ERROR   ./src/app/(auth)/login/page.tsx
+Error:   × Parenthesized expression cannot be empty
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:33:1]
+ 30 │         }
+ 31 │       }
+ 32 │     
+ 33 │ ╭─▶   return (
+ 34 │ │      
+ 35 │ ╰─▶   );
+ 36 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[05:54:58.133] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx
+Error:   × Parenthesized expression cannot be empty
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:33:1]
+ 30 │         }
+ 31 │       }
+ 32 │     
+ 33 │ ╭─▶   return (
+ 34 │ │      
+ 35 │ ╰─▶   );
+ 36 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[05:55:02.374] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx
+Error:   × Parenthesized expression cannot be empty
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:29:1]
+ 26 │         }
+ 27 │       }
+ 28 │     
+ 29 │ ╭─▶   return (
+ 30 │ │      
+ 31 │ ╰─▶   );
+ 32 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[05:55:03.066] Browser ERROR   ./src/app/(auth)/login/page.tsx
+Error:   × Parenthesized expression cannot be empty
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:29:1]
+ 26 │         }
+ 27 │       }
+ 28 │     
+ 29 │ ╭─▶   return (
+ 30 │ │      
+ 31 │ ╰─▶   );
+ 32 │     }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[05:55:21.576] Server  ERROR    ⨯ ./src/app/(auth)/login/page.tsx
+Error:   × 'import', and 'export' cannot be used outside of module code
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:11:1]
+  8 │ export default function Page() {
+  9 │   const inputNameRef = useRef<HTMLInputElement>(null);
+ 10 │   const inputPasswordRef = useRef<HTMLInputElement>(null);
+ 11 │   import LoginForm from "./components/LoginForm.tsx";
+    ·   ──────
+ 12 │ 
+ 13 │   const login = useAuthStore((state) => state.login);
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[05:55:22.067] Browser ERROR   ./src/app/(auth)/login/page.tsx
+Error:   × 'import', and 'export' cannot be used outside of module code
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/page.tsx:11:1]
+  8 │ export default function Page() {
+  9 │   const inputNameRef = useRef<HTMLInputElement>(null);
+ 10 │   const inputPasswordRef = useRef<HTMLInputElement>(null);
+ 11 │   import LoginForm from "./components/LoginForm.tsx";
+    ·   ──────
+ 12 │ 
+ 13 │   const login = useAuthStore((state) => state.login);
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/page.tsx
+[05:57:42.297] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[05:57:44.587] Browser ERROR   uncaughtError: ReferenceError: handleOpenPassword is not defined
+[05:58:11.191] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:58:12.541] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[05:58:18.929] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:58:18.930] Browser ERROR   uncaughtError: ReferenceError: handleOpenPassword is not defined
+[05:58:19.918] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[05:58:22.103] Server  ERROR    ⨯ ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/components/LoginForm.tsx.tsx
+./src/app/(auth)/login/page.tsx
+[05:58:22.443] Browser ERROR   ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+[05:58:22.828] Browser ERROR   ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/components/LoginForm.tsx.tsx
+./src/app/(auth)/login/page.tsx
+[05:58:23.291] Browser ERROR   uncaughtError: ReferenceError: handleOpenPassword is not defined
+[05:58:23.439] Browser ERROR   ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/components/LoginForm.tsx.tsx
+./src/app/(auth)/login/page.tsx
+[05:58:24.447] Server  ERROR    ⨯ ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/components/LoginForm.tsx.tsx
+./src/app/(auth)/login/page.tsx
+[05:58:24.485] Browser ERROR   ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/components/LoginForm.tsx.tsx
+./src/app/(auth)/login/page.tsx
+[05:58:25.467] Server  LOG      ○ Compiling /_error ...
+[05:58:25.708] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[05:58:25.836] Browser ERROR   ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+[05:58:34.142] Browser ERROR   ./src/app/(auth)/login/components/LoginForm.tsx.tsx
+Error:   × Expected ',', got 'inputNameRef'
+    ╭─[/home/pasha/coding/live-poll/client/src/app/(auth)/login/components/LoginForm.tsx.tsx:15:1]
+ 12 │ export default function LoginForm({
+ 13 │   handleRegistration,
+ 14 │   handleOpenPassword
+ 15 │   inputNameRef,
+    ·   ────────────
+ 16 │   inputPasswordRef,
+ 17 │ }: IFormRegisterProps) {
+ 18 │   return (
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(auth)/login/components/LoginForm.tsx.tsx
+./src/app/(auth)/login/page.tsx
+[05:58:35.076] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:58:36.068] Server  ERROR    ⨯ ReferenceError: localStorage is not defined

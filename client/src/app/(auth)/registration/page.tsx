@@ -2,8 +2,8 @@
 import "./style.css";
 import React, { useRef } from "react";
 import { useAuthStore } from "@/lib/store";
-import FormRegister from "./formRegister";
-import { checkingPasswords } from "./authFunction";
+import FormRegister from "./components/FormRegister";
+import { checkingPasswords } from "./actions/registration.actions";
 import { toast } from "react-toastify";
 
 export default function Page() {
