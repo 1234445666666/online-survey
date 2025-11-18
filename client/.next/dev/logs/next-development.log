@@ -1303,3 +1303,5 @@ Import trace for requested module:
 ./src/app/(auth)/login/page.tsx
 [05:58:35.076] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
 [05:58:36.068] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[06:14:24.877] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[06:34:41.942] Server  ERROR    ⨯ ReferenceError: localStorage is not defined

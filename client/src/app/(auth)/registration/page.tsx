@@ -7,9 +7,9 @@ import { checkingPasswords } from "./actions/registration.actions";
 import { toast } from "react-toastify";
 
 export default function Page() {
-  const inputNameRef = useRef<HTMLInputElement | null>(null);
-  const inputPasswordRef = useRef<HTMLInputElement | null>(null);
-  const inputConfirmPasswordRef = useRef<HTMLInputElement | null>(null);
+  const inputNameRef = useRef<HTMLInputElement>(null);
+  const inputPasswordRef = useRef<HTMLInputElement>(null);
+  const inputConfirmPasswordRef = useRef<HTMLInputElement>(null);
 
   const register = useAuthStore((state) => state.register);
 

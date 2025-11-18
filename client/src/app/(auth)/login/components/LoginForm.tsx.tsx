@@ -5,8 +5,8 @@ import Link from "next/link";
 interface IFormRegisterProps {
   handleRegistration: (event: React.FormEvent<HTMLFormElement>) => void;
   handleOpenPassword: () => void;
-  inputNameRef: React.RefObject<HTMLInputElement>;
-  inputPasswordRef: React.RefObject<HTMLInputElement>;
+  inputNameRef: React.RefObject<HTMLInputElement | null>;
+  inputPasswordRef: React.RefObject<HTMLInputElement | null>;
 }
 
 export default function LoginForm({

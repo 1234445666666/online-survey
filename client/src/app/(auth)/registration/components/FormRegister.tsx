@@ -1,12 +1,13 @@
 "use client";
 import { ToastContainer } from "react-toastify";
 
+// Исправьте ваш интерфейс пропсов таким образом:
 interface IFormRegisterProps {
   handleRegistration: (event: React.FormEvent<HTMLFormElement>) => void;
   handleLogin: () => void;
-  inputNameRef: React.RefObject<HTMLInputElement>;
-  inputPasswordRef: React.RefObject<HTMLInputElement>;
-  inputConfirmPasswordRef: React.RefObject<HTMLInputElement>;
+  inputNameRef: React.RefObject<HTMLInputElement | null>;
+  inputPasswordRef: React.RefObject<HTMLInputElement | null>;
+  inputConfirmPasswordRef: React.RefObject<HTMLInputElement | null>;
 }
 
 export default function FormRegister({
