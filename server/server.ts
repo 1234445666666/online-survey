@@ -1,18 +1,46 @@
 import WebSocket from "ws";
+import express from "express";
+import cors from "cors";
 
-const wss = new WebSocket.Server({ port: 8080 });
+const app = express();
+const Port = 5500;
 
-wss.on("connection", (ws) => {
-  console.log("Новый клиент подключился");
+app.use(express.json());
 
-  ws.on("message", (message) => {
-    console.log("Получено сообщение:", message.toString());
-    wss.clients.forEach((client) => {
-      if (client.readyState === WebSocket.OPEN) {
-        client.send(message.toString());
-      }
-    });
-  });
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "https://redundantly-agile-redfish.cloudpub.ru/",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type"],
+  })
+);
+
+app.get("/", (req, res) => {
+  res.send("Hello World!");
 });
 
-console.log("Сервер запущен на порту 3000");
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send("Something went wrong!");
+});
+
+app.listen(Port, () => {
+  console.log(`Сервер запущен на порту ${Port}`);
+});
+// const wss = new WebSocket.Server({ port: 8080 });
+
+// wss.on("connection", (ws) => {
+//   console.log("Новый клиент подключился");
+
+//   ws.on("message", (message) => {
+//     console.log("Получено сообщение:", message.toString());
+//     wss.clients.forEach((client) => {
+//       if (client.readyState === WebSocket.OPEN) {
+//         client.send(message.toString());
+//       }
+//     });
+//   });
+// });
