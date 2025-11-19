@@ -17,7 +17,6 @@ export const useAuthStore = create<AuthState>((set) => ({
     set((state) => {
       const users = [...state.users, { username, password }];
       localStorage.setItem("users", JSON.stringify(users));
-      toast.success("Регистрация успешна!");
       return { users };
     });
   },

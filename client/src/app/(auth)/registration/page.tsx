@@ -20,7 +20,12 @@ export default function Page() {
     const passwordConfirm = inputConfirmPasswordRef.current?.value || "";
 
     if (checkingPasswords(password, passwordConfirm)) {
+      toast("Успешная регистрация");
       register(name, password);
+    } else if (password !== passwordConfirm) {
+      toast("Пароли не совпадают");
+    } else {
+      toast("Пароль не соответствует требованиям");
     }
   }
   function handleLogin() {

@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import { useAuthStore } from "@/lib/store";
 import LoginForm from "./components/LoginForm.tsx";
 import { toast } from "react-toastify";
+import { strict } from "assert";
 
 export default function Page() {
   const inputNameRef = useRef<HTMLInputElement>(null);
@@ -13,9 +14,10 @@ export default function Page() {
 
   function handleRegistration(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const name = inputNameRef.current?.value;
-    const password = inputPasswordRef.current?.value;
-    const success = login(name!, password!);
+    const form = new FormData(event.currentTarget);
+    const name = form.get("name") as string;
+    const password = form.get("password") as string;
+    const success = login(name, password);
   }
 
   function handleOpenPassword() {
