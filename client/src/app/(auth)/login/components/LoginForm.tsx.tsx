@@ -1,6 +1,7 @@
 "use client";
 import { ToastContainer } from "react-toastify";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 interface IFormRegisterProps {
   handleRegistration: (event: React.FormEvent<HTMLFormElement>) => void;
@@ -15,10 +16,14 @@ export default function LoginForm({
   inputNameRef,
   inputPasswordRef,
 }: IFormRegisterProps) {
+  const router = useRouter();
   return (
     <div className="login-page">
       <div className="container">
         <div className="login-container">
+          <button onClick={() => router.push("/")} className="btn btn-light">
+            Назад
+          </button>
           <h1 className="login-title">Логин</h1>
           <form onSubmit={handleRegistration} className="login-form">
             <div className="form-group">

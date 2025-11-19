@@ -1,5 +1,6 @@
 "use client";
 import { ToastContainer } from "react-toastify";
+import { useRouter } from "next/navigation";
 
 // Исправьте ваш интерфейс пропсов таким образом:
 interface IFormRegisterProps {
@@ -17,10 +18,14 @@ export default function FormRegister({
   inputPasswordRef,
   inputConfirmPasswordRef,
 }: IFormRegisterProps) {
+  const router = useRouter();
   return (
     <div className="registration-page">
       <div className="container">
         <div className="registration-container">
+          <button onClick={() => router.push("/")} className="btn btn-light">
+            Назад
+          </button>
           <h1 className="registration-title">Регистрация</h1>
           <p className="registration-subtitle">Создайте свой аккаунт</p>
 
