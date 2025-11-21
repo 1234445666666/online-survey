@@ -1,16 +1,9 @@
-[00:00:03.364] Server  LOG      ✓ Ready in 2.4s
-[00:00:06.664] Server  LOG      ○ Compiling /login ...
-[00:00:13.379] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:00:13.864] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:00:15.670] Server  WARN     ⚠ Cross origin request detected from redundantly-agile-redfish.cloudpub.ru to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:03.028] Server  LOG      ✓ Ready in 2.3s
+[00:00:06.818] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[00:00:07.267] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[00:00:07.751] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[00:00:11.125] Server  WARN     ⚠ Cross origin request detected from redundantly-agile-redfish.cloudpub.ru to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:01:14.120] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:01:31.461] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:01:43.391] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:02:06.249] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:02:06.298] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:32.258] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:02:53.128] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[00:56:40.262] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[01:39:52.338] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
-[01:40:10.954] Server  ERROR    ⨯ ReferenceError: localStorage is not defined
+[00:00:11.175] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:14.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:16.299] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
